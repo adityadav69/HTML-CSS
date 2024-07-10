@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.first {
+    height: 100vh;
+    background-image: url(./Images/bi.jpg);
+}
+
+.logo img {
+    width: 20vw;
+    height: 20vh;
+}
+
+.main {
+    height: 100vh;
+    opacity: 0.8;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 0px 10rem;
+
+}
+
+.lang button {
+    width: 7vw;
+    height: 5vh;
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    border: solid 1px white;
+    border-radius: 5px;
+    font-weight: 900;
+}
+
+.sign_in button {
+    width: 5vw;
+    height: 5vh;
+    background-color: red;
+    color: white;
+    border: solid 1px white;
+    border-radius: 5px;
+    font-weight: 800;
+}
+
+.sign_in button:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.lang button:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.text {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    padding: 1rem 0;
+}
+
+h2 {
+    color: white;
+    padding: 1rem 0;
+    font-size: 2rem;
+}
+
+h3 {
+    color: white;
+    padding: 1rem 0;
+}
+
+.card {
+    display: flex;
+    margin-top: 10rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.email input {
+    background-color: black;
+    color: white;
+    width: 25vw;
+    height: 7vh;
+    border: 1px solid white;
+    padding: 10px;
+    font-size: large;
+    border-radius: 5px;
+}
+
+.email button {
+    height: 7.5vh;
+    width: 12vw;
+    margin: 0 1rem;
+    background-color: red;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+.email button:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.slider2 {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+}
+
+.slider2 h1 {
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Roboto', sans-serif;
+}
+.slider2 h2 {
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+}

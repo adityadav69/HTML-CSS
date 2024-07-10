@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    max-width: 85vw;
+    margin: 0px auto;
+    margin-bottom: 60px;
+}
+.logo, img{
+    width: 115px;
+}
+.logo, img:hover{
+    cursor: pointer;
+}
+.searchbar input{
+    height: 24px;
+    width: 497px;
+    padding: 5px;
+    border: 0px solid white;
+    font-size: 15px;
+}
+.searchbar input:hover{
+    cursor: text;
+}
+.searchlogo svg{
+    width: 24px;
+
+}
+.searchlogo svg:hover{
+    cursor: pointer;
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    /* border:  solid rgb(238, 238, 238);
+    background-color: rgb(255, 255, 255); */
+    height: 34px;
+
+}
+nav{
+   
+    height: 65px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+nav .left{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    
+}
+nav .right{
+    display: flex;
+    gap: 34px;
+    align-items: center;
+}
+.signin button{
+    color: rgb(255, 255, 255);
+    background-color: rgb(248, 68, 100);
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    width: 67px;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid rgb(248, 68, 100);
+}
+.signin button:hover{
+    cursor: pointer;
+}
+.choices{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+.left-choice ul{
+    display: flex;
+    gap: 20px;
+}
+.left-choice ul li{
+    list-style: none;
+}
+.left-choice ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+.right-choice ul{
+    display: flex;
+    gap: 20px;
+}
+.right-choice ul li{
+    list-style: none;
+}
+.right-choice ul li a{
+    text-decoration: none;
+    color: black;
+}
+main{
+    max-width: 85vw;
+    margin: 0px auto;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 124px;
+}
+.card-items img{
+    width: 208px;
+    height: 362px;
+    border-radius: 13px;
+}
+.card-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.card-items .name{
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+}
+
+footer{
+    height: 120vh;
+    background-color: rgb(50, 45, 45);
+    color: white;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+footer div{
+    margin-top: 34px;
+}

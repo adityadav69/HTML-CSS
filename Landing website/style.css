@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top{
+    min-height: 100vh;
+    background-image: url(./images/hero.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.text_container{
+    width: 900px;
+    height: 400px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.large{
+    font-size: 70px;
+    font-weight: 300;
+}
+.black_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    width: 98.9vw;
+    height: 210px;
+    background-color: black;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 60px;
+    font-weight: 200;
+    padding: 10px;
+}
+.cardItem:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+    transition: 0.2s ease-in-out;
+}
+.cardItem{
+   width: 320px;
+    min-height:400px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.3);
+}
+.card{
+    font-family: "Roboto", sans-serif;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border-radius: 50px;
+    gap:100px;
+    
+}
+.text{
+    margin-top: 30px;
+}
+.contact h2,
+.about h2{
+    text-transform:uppercase;
+    text-align: center;
+    padding: 30px;
+}
+.footer{
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    color: white;
+    margin-top: 70px;
+
+}
+.contact{
+    background-color: rgb(23, 95, 23);
+    max-width: 50%;
+    min-height: 200px;
+}
+.about{
+    max-width: 50%;
+    background-color: rgb(75, 36, 36);
+    min-height: 200px;
+}
+.contact  p
+{
+   padding: 40px;
+}
+.about p{
+    padding: 40px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    min-height: 100px;
+    
+}

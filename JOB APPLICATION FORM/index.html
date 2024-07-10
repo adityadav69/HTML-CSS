@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form">
+        <h1>Job Application</h1>
+        <form action="">
+          <div class="form_Element">
+            <label for="first_name">First Name</label>
+            <input
+              class="small"
+              type="text"
+              id="first_name"
+              name="first_name"
+            />
+          </div>
+          <div class="form_Element">
+            <label for="last_name">Last Name</label>
+            <input class="small" type="text" id="last_name" name="last_name" />
+          </div>
+
+          <div class="form_Element">
+            <label for="email">Email</label>
+            <input class="small" type="email" id="email" name="email" />
+          </div>
+
+          <div class="form_Element">
+            <label for="job_role">Job Role</label>
+            <select name="job_role" class="small" id="job_role">
+              <option value="">Select Job Role</option>
+              <option value="front_end">front End</option>
+              <option value="back_end">Back End</option>
+              <option value="ds">Data scientist</option>
+              <option value="full_stack">Full Stack</option>
+            </select>
+          </div>
+
+          <div class="form_Element">
+            <label for="address">Address</label>
+            <textarea
+              class="small"
+              name="address"
+              id="address"
+              cols="50"
+              rows="4"
+            ></textarea>
+          </div>
+
+          <div class="form_Element">
+            <label for="city">City</label>
+            <input type="text" class="small" id="city" name="city" />
+          </div>
+
+          <div class="form_Element">
+            <label for="PinCode">Pincode</label>
+            <input type="number" class="small" id="PinCode" name="PinCode" />
+          </div>
+
+          <div class="form_Element">
+            <label for="Date">Date</label>
+            <input type="date" class="small" id="Date" name="Date" />
+          </div>
+
+          <div class="form_Element">
+            <label for="Document">Upload Your CV</label>
+            <input type="file" id="Document" name="Document" />
+          </div>
+        </form>
+        <div class="button">
+          <button type="submit">Submit</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
